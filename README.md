@@ -103,7 +103,7 @@ GraphManager is a Java library designed to facilitate the creation, manipulation
 ``Path randomWalkPath = graph.GraphSearch("1", "5", algo); // The returned path could vary due to randomness``<br>
 ``System.out.println("Random Walk Path: " + randomWalkPath);``<br><br>
 ### Verify Output:
-* The expected path could vary, e.g., "1 > 2 > 4 > 5" or "1 > 3 > 4 > 5"<br>
+* The expected path could vary, since it is random (limited to each node's connected edges), such as "7 -> 4" or "7 -> 9 -> 3 -> 2 -> 1"<br>
 ``System.out.println("Random Walk Path could vary due to the algorithm's nature.");``<br>
 ``System.out.println("Actual Random Walk Path: " + randomWalkPath);``<br><br>
 
