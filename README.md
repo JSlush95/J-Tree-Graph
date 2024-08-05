@@ -1,5 +1,5 @@
 # GraphManager
-GraphManager is a Java library designed to facilitate the creation, manipulation, and visualization of directed graphs. It supports importing/exporting graphs in DOT format, adding/removing nodes and edges, and executing various graph traversal algorithms including Breadth-First Search (BFS), Depth-First Search (DFS), and Random Walk.
+GraphManager is a Java class designed to facilitate the creation, manipulation, and visualization of directed graphs. It supports importing/exporting graphs in DOT format, adding/removing nodes and edges, and executing various graph traversal algorithms including Breadth-First Search (BFS), Depth-First Search (DFS), and Random Walk.
 
 # Features
 - Graph Operations: Add/remove nodes and edges.
